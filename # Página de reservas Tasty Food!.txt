@@ -1,0 +1,31 @@
+# Página de reservas Tasty Food!
+
+Página web con un sistema de reservas para restaurante, contará con un diseño simple pero funcional, el funcionamiento será que el usuario ingrese su nombre, cantidad de personas a reservar y fecha y hora de la reserva, el sistema procesará los datos y guardará la reserva en una base de datos, el algoritmo deberá también tener en cuenta si el restaurante estará abierto durante la hora elegida de la reserva y si hay capacidad disponible.
+
+A tener en cuenta: 
+	-El restaurante tiene que estar abierto a la hora de la reserva
+	-Tiene que ser una fecha el futuro
+	-No tiene que exceder la cantidad de personas (si lo hace promptear una alerta o mensaje etc)
+	-El algoritmo tiene que chekear si hay disponibilidad a la hora de la reserva
+	-Suponete que le haga un turno de 11.30 hasta las 12 para no hacer quilombo y que sea más fácil
+	-El algoritmo deberá, si la reserva cumple con todas las condiciones, reservar la mesa y guardarla en la base de datos
+	
+Si es posible (que no lo creo):
+	-Tiene que haber un límite de reservas hechas por cada x hora (tentativamente cada 3 horas aprox) con un máximo de 100 personas
+
+
+
+Requisitos:
+	HTML:
+		-Una página HTML
+	CSS:
+		-Algún diseño básico y funcional
+	JS: 
+		-Event listeners para detectar la acción del usuario
+		-Cambio de botones
+		-Contador de número de comensales
+	PYTHON:
+		-Conectar con sql 
+		-Manejar la tabla que contendrá las reservas con funciones como agregar_reserva(), eliminar_reserva(), 					modificar_reserva(), consultar_tabla()
+		-Chekear que la fecha de la reserva sea válida(fecha futura, dentro del horario dispuesto y que haya disponibilidad) 			(modulo datetime)
+		-
